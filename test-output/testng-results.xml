@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-28T21:16:56 EET" name="Default suite" finished-at="2022-08-28T21:19:34 EET" duration-ms="158239">
+    <groups>
+    </groups>
+    <test started-at="2022-08-28T21:16:56 EET" name="Default test" finished-at="2022-08-28T21:19:34 EET" duration-ms="158239">
+      <class name="Pages.AddItemFromHomePageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pages.AddItemFromHomePageTest@712625fd]" started-at="2022-08-28T21:16:56 EET" name="beforeClass" finished-at="2022-08-28T21:17:01 EET" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Pages.AddItemFromHomePageTest@712625fd]" started-at="2022-08-28T21:17:01 EET" name="beforeMethod" finished-at="2022-08-28T21:17:10 EET" duration-ms="8045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="select_first_item()[pri:0, instance:Pages.AddItemFromHomePageTest@712625fd]" started-at="2022-08-28T21:17:10 EET" name="select_first_item" finished-at="2022-08-28T21:17:28 EET" duration-ms="18354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_first_item -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Pages.AddItemFromHomePageTest@712625fd]" started-at="2022-08-28T21:17:28 EET" name="afterClass" finished-at="2022-08-28T21:17:29 EET" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Pages.AddItemFromHomePageTest -->
+      <class name="RestAPI.RestAPIs">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAPI.RestAPIs@4c60d6e9]" started-at="2022-08-28T21:17:29 EET" name="setup" finished-at="2022-08-28T21:17:29 EET" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="make_Post_With_UserID()[pri:0, instance:RestAPI.RestAPIs@4c60d6e9]" started-at="2022-08-28T21:17:29 EET" name="make_Post_With_UserID" finished-at="2022-08-28T21:17:33 EET" duration-ms="3941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- make_Post_With_UserID -->
+        <test-method signature="print_Completed_TODO_Titles_ByUserID()[pri:0, instance:RestAPI.RestAPIs@4c60d6e9]" started-at="2022-08-28T21:17:33 EET" name="print_Completed_TODO_Titles_ByUserID" finished-at="2022-08-28T21:17:33 EET" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_Completed_TODO_Titles_ByUserID -->
+        <test-method signature="print_comments_of_PostID()[pri:0, instance:RestAPI.RestAPIs@4c60d6e9]" started-at="2022-08-28T21:17:33 EET" name="print_comments_of_PostID" finished-at="2022-08-28T21:17:34 EET" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_comments_of_PostID -->
+        <test-method signature="verify_Album_Title_ByUserID()[pri:0, instance:RestAPI.RestAPIs@4c60d6e9]" started-at="2022-08-28T21:17:34 EET" name="verify_Album_Title_ByUserID" finished-at="2022-08-28T21:17:34 EET" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Album_Title_ByUserID -->
+      </class> <!-- RestAPI.RestAPIs -->
+      <class name="Pages.BusTicket">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:17:34 EET" name="beforeClass" finished-at="2022-08-28T21:17:36 EET" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:17:36 EET" name="beforeMethod" finished-at="2022-08-28T21:18:13 EET" duration-ms="37123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="book_bus_ticket_successfully()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:13 EET" name="book_bus_ticket_successfully" finished-at="2022-08-28T21:18:35 EET" duration-ms="22718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book_bus_ticket_successfully -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:35 EET" name="beforeMethod" finished-at="2022-08-28T21:18:48 EET" duration-ms="12615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="user_must_date()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:48 EET" name="user_must_date" finished-at="2022-08-28T21:18:54 EET" duration-ms="5735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_must_date -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:54 EET" name="beforeMethod" finished-at="2022-08-28T21:18:58 EET" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="user_must_select_route()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:58 EET" name="user_must_select_route" finished-at="2022-08-28T21:18:59 EET" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_must_select_route -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Pages.BusTicket@15043a2f]" started-at="2022-08-28T21:18:59 EET" name="afterClass" finished-at="2022-08-28T21:19:00 EET" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Pages.BusTicket -->
+      <class name="Pages.AddItemFromTodayDeal">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Pages.AddItemFromTodayDeal@4a83a74a]" started-at="2022-08-28T21:19:00 EET" name="beforeClass" finished-at="2022-08-28T21:19:01 EET" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Pages.AddItemFromTodayDeal@4a83a74a]" started-at="2022-08-28T21:19:01 EET" name="beforeMethod" finished-at="2022-08-28T21:19:11 EET" duration-ms="10046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="select_item_from_Page4()[pri:0, instance:Pages.AddItemFromTodayDeal@4a83a74a]" started-at="2022-08-28T21:19:11 EET" name="select_item_from_Page4" finished-at="2022-08-28T21:19:33 EET" duration-ms="22139" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ALAA-SABER', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbbedc3e851168fb1e03fd51d3372a67, findElement {using=id, value=add-to-cart-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ALAASA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56322/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbbedc3e851168fb1e03fd51d3372a67]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ALAA-SABER', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbbedc3e851168fb1e03fd51d3372a67, findElement {using=id, value=add-to-cart-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ALAASA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56322/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbbedc3e851168fb1e03fd51d3372a67
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at AutomationTask.AmazonItemPage.addItemToCart(AmazonItemPage.java:23)
+at Pages.AddItemFromTodayDeal.select_item_from_Page4(AddItemFromTodayDeal.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_item_from_Page4 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Pages.AddItemFromTodayDeal@4a83a74a]" started-at="2022-08-28T21:19:33 EET" name="afterClass" finished-at="2022-08-28T21:19:34 EET" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Pages.AddItemFromTodayDeal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
